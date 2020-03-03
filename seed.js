@@ -6,5 +6,3 @@ let insultsList = require('./insults.json')
 insults.remove({}).then(() => {
     insults.insert(insultsList.insults);
 })
-
-
